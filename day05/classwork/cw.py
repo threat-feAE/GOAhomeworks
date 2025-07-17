@@ -1,0 +1,5 @@
+num1= int(input(23))
+num2= int(input(235))
+print(num1 > num2)
+print(num1 < num2)
+print(num1 == num2)
