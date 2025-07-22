@@ -9,7 +9,7 @@
 #true and false—>false
 #false or true—>true
 #false and false_>false
-#true or false—>ture
+#true or false—>true
 #false and true—>false
 #false or false_>false
 
