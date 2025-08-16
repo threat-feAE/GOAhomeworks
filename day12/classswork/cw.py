@@ -14,3 +14,13 @@ while guess !=password:
     guess=input()
     
 print("maladeccc")
+
+
+
+
+age=26
+if age>18:
+    print("chad")
+else:
+    print("gooner")
+ 
