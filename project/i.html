@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="ka">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Goa</title>
+  <meta name="description" content="მფიქრი მოგზაურობის გვერდი გოა — პლაჟები, ფესტივალები და მოკლე ინსტრუქცია დასვენებისთვის.">
+  <style>
+    :root{
+      --accent: #0b6e4f;
+      --accent-2: #f59e0b;
+      --bg: #fbfbfb;
+      --card:#ffffff;
+      --muted:#6f7275;
+      font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, Arial, "Noto Sans";
+    }
+    *{box-sizing:border-box}
+    body{ margin:0; background:var(--bg); color:#111; -webkit-font-smoothing:antialiased; line-height:1.5;}
+    header{
+      background:linear-gradient(120deg, rgba(11,110,79,0.95), rgba(15,120,90,0.92));
+      color:rgb(0, 0, 0); padding:30px 18px; text-align:center;
+    }
+    header h1{ margin:0; font-size:1.6rem; letter-spacing:0.2px; }
+    header p{ margin:6px 0 0; opacity:0.95; font-size:0.95rem; }
+
+    .container{ max-width:1000px; margin:20px auto; padding:16px; }
+
+    .hero{
+      display:grid;
+      grid-template-columns: 1fr 340px;
+      gap:18px;
+      align-items:start;
+    }
+
+    .card{
+      background:var(--card);
+      padding:14px;
+      border-radius:12px;
+      box-shadow:0 8px 20px rgba(20,20,20,0.06);
+    }
+
+    .hero-left{
+      border-radius:12px;
+      overflow:hidden;
+      position:relative;
+      min-height:220px;
+      background:linear-gradient(180deg, #e6f9f0, #fff);
+    }
+    .hero-left img{ width:100%; height:100%; object-fit:cover; display:block; }
+    .hero-caption{
+      position:absolute; left:16px; bottom:14px; color:white; text-shadow:0 6px 16px rgba(0,0,0,0.35);
+      background:rgba(0,0,0,0.16); padding:8px 12px; border-radius:8px;
+      font-weight:700;
+    }
+
+    h2{ margin:0 0 10px; font-size:1.05rem; }
+    p.small{ color:var(--muted); margin:0 0 12px; font-size:0.95rem; }
+
+    .grid-3{
+      display:grid;
+      grid-template-columns: repeat(3,1fr);
+      gap:12px;
+    }
+    .attraction{ padding:10px; border-radius:10px; text-align:center; }
+    .attraction img{ width:100%; height:110px; object-fit:cover; border-radius:8px; display:block; }
+
+    .btn{ display:inline-block; padding:9px 12px; border-radius:8px; background:var(--accent-2); color:#222; font-weight:700; text-decoration:none; }
+
+    /* itinerary list */
+    .itinerary ol{ padding-left:18px; margin:6px 0 0; color:var(--muted); }
+
+    footer{ text-align:center; color:var(--muted); margin:28px 0 40px; font-size:0.9rem; }
+
+    /* responsive */
+    @media (max-width:920px){
+      .hero{ grid-template-columns: 1fr; }
+      .grid-3{ grid-template-columns: repeat(2,1fr); }
+    }
+    @media (max-width:560px){
+      .grid-3{ grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1><strong>GOA</strong></h1>
+    <p>gakvetilebis chanazeri,videoebi,suratebi,informaciebi</p>
+  </header>
+
+  <main class="container">
+    <div class="hero">
+      <div class="hero-left card">
+        <!-- Change src to a real image path (e.g. images/goa-hero.jpg) -->
+        <img src="f.jpg" alt="Goa hero image">
+       
+
+        <div style="padding:14px;">
+          <h2>რატომ გინდა ეწვიო გოას?</h2>
+          <p class="small">გოა უნიკალურია: მიიღებ ბევრ ციდნას ისწავლი კოდირებას:python,web desing და ა.შ.შ</p>
+
+          <h2>საუკეთესო სასწავლებელი</h2>
+          <p class="small"></p>
+
+          <div style="margin-top:10px;">
+            <a class="btn" href="e.html">გადასვლა</a>
+          </div>
+        </div>
+      </div>
+
+      <aside class="card">
+        <h2>სწრაფი ფაქტები</h2>
+        <p class="small"><strong>რეგიონი:</strong> დასავლეთი ინდოეთი • <strong>ენები:</strong> კონკანი, ჰინდური, ინგლისური • <strong>დამოუკიდებლობის ისტორია:</strong> პორტუგალიური გავლენები</p>
+
+        <h2 style="margin-top:12px">გადმოსვლა</h2>
+        <p class="small">პრინციპში ხელმისაწვდომია ავიებით (Dabolim Airport), მატარებლით და ავტობუსით. ადგილზე საკმარისია მოტო-ქირავება ან ტაქსი.</p>
+
+        <h2 style="margin-top:12px">ჩაინიშნე</h2>
+        <p class="small">თუ გზავნით ზაფხულში (მონსუნი), უმჯობესია მოაწყო პლანირება წინასწარ.</p>
+      </aside>
+    </div>
+
+    <!-- attractions -->
+    <section class="card" style="margin-top:18px;">
+      <h2>გოას მნიშვნელოვანი ფაქტები</h2>
+      <div class="grid-3" style="margin-top:10px;">
+        <div class="attraction card">
+          <img src="f.jpg" alt="">
+          <h3 style="font-size:0.98rem;margin:8px 0 4px;">GOA</h3>
+          <p class="small">goa-best learning online school</p>
+        </div>
+        <div class="attraction card">
+          <img src="g.jpg" alt="Old Goa">
+          <h3 style="font-size:0.98rem;margin:8px 0 4px;">FACTS</h3>
+          <p class="small">გოაში ისწავლი და მიიღებ ბევრ ცოდნას</p>
+        </div>
+        <div class="attraction card">
+          <img src="i.jpg" alt="Anjuna Flea Market">
+          <h3 style="font-size:0.98rem;margin:8px 0 4px;">DISCIPLINE</h3>
+          <p class="small">გოას არ უყვარს ზარმაცი მოსწავლეები და რომლებიც არ მუშაობს და არც ვარჯიშობს</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- itinerary -->
+   
+
+
+  <footer>
+    © 2025 — Goa quick guide • შეინახე და მორგე შენს გემოვნებაზე
+  </footer>
+
+  <script>
+    function handleTrip(e){
+      e.preventDefault();
+      const name = document.getElementById('guest').value.trim();
+      const days = document.getElementById('days').value.trim();
+      const fb = document.getElementById('tripFeedback');
+      fb.textContent = ნამდვილად, $name || 'მეგობარო'} {days || 'რამდენიმე'} 
+      // პატარა გამონაყარი, წყდება ავტომატურად
+      setTimeout(()=> { document.getElementById('tripForm').reset(); }, 1400);
+
+  </script>
+</body>
+</html>
