@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>Goa</title>
-  <meta name="description" content="მფიქრი მოგზაურობის გვერდი გოა — პლაჟები, ფესტივალები და მოკლე ინსტრუქცია დასვენებისთვის.">
+  <meta name="description">
   <style>
     :root{
       --accent: #0b6e4f;
@@ -66,19 +66,14 @@
 
     .btn{ display:inline-block; padding:9px 12px; border-radius:8px; background:var(--accent-2); color:#222; font-weight:700; text-decoration:none; }
 
-    /* itinerary list */
+    
     .itinerary ol{ padding-left:18px; margin:6px 0 0; color:var(--muted); }
 
     footer{ text-align:center; color:var(--muted); margin:28px 0 40px; font-size:0.9rem; }
 
-    /* responsive */
-    @media (max-width:920px){
-      .hero{ grid-template-columns: 1fr; }
-      .grid-3{ grid-template-columns: repeat(2,1fr); }
-    }
-    @media (max-width:560px){
-      .grid-3{ grid-template-columns: 1fr; }
-    }
+    
+    
+    
   </style>
 </head>
 <body>
@@ -90,7 +85,7 @@
   <main class="container">
     <div class="hero">
       <div class="hero-left card">
-        <!-- Change src to a real image path (e.g. images/goa-hero.jpg) -->
+       
         <img src="f.jpg" alt="Goa hero image">
        
 
@@ -119,7 +114,7 @@
       </aside>
     </div>
 
-    <!-- attractions -->
+    
     <section class="card" style="margin-top:18px;">
       <h2>გოას მნიშვნელოვანი ფაქტები</h2>
       <div class="grid-3" style="margin-top:10px;">
@@ -141,7 +136,7 @@
       </div>
     </section>
 
-    <!-- itinerary -->
+    
    
 
 
@@ -149,16 +144,7 @@
     © 2025 — Goa quick guide • შეინახე და მორგე შენს გემოვნებაზე
   </footer>
 
-  <script>
-    function handleTrip(e){
-      e.preventDefault();
-      const name = document.getElementById('guest').value.trim();
-      const days = document.getElementById('days').value.trim();
-      const fb = document.getElementById('tripFeedback');
-      fb.textContent = ნამდვილად, $name || 'მეგობარო'} {days || 'რამდენიმე'} 
-      // პატარა გამონაყარი, წყდება ავტომატურად
-      setTimeout(()=> { document.getElementById('tripForm').reset(); }, 1400);
-
+  
   </script>
 </body>
 </html>
