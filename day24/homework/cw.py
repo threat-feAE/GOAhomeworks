@@ -85,10 +85,10 @@ else:
 
 z=["agivorsbgitr"]
 
-print(z[1],z[4],z[0])
-print(z[6],z[0],z[7],z[0])
-print(z[7],z[0],z[10],z[2],z[3],z[0],z[11])
-print(z[1],z[2],z[4],z[11],z[1],z[2])
+print(z[1]+z[4]+z[0])
+print(z[6]+z[0]+z[7]+z[0])
+print(z[7]+z[0]+z[10]+z[2]+z[3]+z[0]+z[11])
+print(z[1]+z[2]+z[4]+z[11]+z[1]+z[2])
 
 
 
