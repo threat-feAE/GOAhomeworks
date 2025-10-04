@@ -11,7 +11,7 @@ print(h[5:10])
 
 
 t0=[i for i in range(1,21)]
-print("2) first 11 element:", t0[:11])
+print("2) first 11 element:", t0[:-9])
 
 
 
