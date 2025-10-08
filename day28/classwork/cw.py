@@ -10,13 +10,17 @@ print(h[5:10])
 
 
 
-t0=[i for i in range(1,21)]
-print("2) first 11 element:", t0[:-9])
+u=[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20]
+print(u[-20:-8])
+
+
+
+
+r=[1,2,3,4,5,6,7,8,9,10,11,12]
+number=int(input("type number"))
+print(r[2:number])
 
 
 
 
 
-z=[i for i in range(1,13)]
-num=int(input("write number (3-12); "))
-print("3) element indexit 2-dan",num,"mde",z[2:num])
