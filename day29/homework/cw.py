@@ -28,4 +28,4 @@ print(kola[2:7])
 kipa="abcdefghijklmno"
 print(kipa[0:4])
 print(kipa[9:16])
-print(kipa[5:10])
+print(kipa[5:10])                                                       
