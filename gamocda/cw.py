@@ -48,7 +48,7 @@
 #for loop
 #while loop
 #dadebiti da uaryopiti index---(number[1:2])  an   (number[-6:-2])
-
+#len
 
 
 
