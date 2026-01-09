@@ -113,8 +113,7 @@ print(name2//name1)
 name3=("koka")
 name4=("kola")
 print(name3 + name4)
-
-
+#koestfes
 #კონკატენაცია
 
           #   6   MEEKVSES PASUXEBI
