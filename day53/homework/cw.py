@@ -31,7 +31,7 @@ print(result)
 
 #2
 
-numbers = [3, 6, 5, 8, 7, 4]
+numbers = [3, 6, 5, 8, 7, 4, 9, 7]
 result = []
 
 i = 0
