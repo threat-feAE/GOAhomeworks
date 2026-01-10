@@ -51,3 +51,30 @@ print(result)
 
 
 #3
+words = ["Nika", "PROGRAMMING", "python", "HELLO", "Data123"]
+list = []
+
+i = 0
+while i < len(words):
+    word = words[i]
+    if len(word) > 6 or word.isupper():
+        list.append(word.lower())
+    else:
+        list.append(word + word)
+    i += 1
+
+print(list)
+
+
+
+
+#4
+numbers = (0,1, 2, 3 ,4 ,5, 6, 7, 8, 9)
+result_for = []
+
+for i in range(len(numbers)):
+    kopa = int(numbers[i])
+    if i % 2 == 0 or kopa > 7:
+        result_for.append(kopa)
+
+print(result_for)
