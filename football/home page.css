@@ -152,11 +152,12 @@ opacity: 0.8;
  
   font-weight:21px;
   font-family: Arial, sans-serif;
-
+  
 }
 
 .raphinia-text h1 {
   margin-bottom: 10px;
+   color: rgb(203, 190, 241);
 }
 
 
