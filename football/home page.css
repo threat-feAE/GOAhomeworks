@@ -1,0 +1,180 @@
+body{
+    background-color:rgb(10, 10, 20);
+
+}
+
+header{
+margin: 0 auto;
+padding: 2em;
+width: 800px;
+background: rgb(21, 21, 45);
+text-align: center;
+border-radius: 10px;
+position: relative;
+color: aliceblue;
+font-weight:1000 ; 
+font-family: Arial, sans-serif;
+
+} 
+
+@property --angle {
+  syntax:"<angle>";
+  initial-value:0deg;
+  inherits:false;
+
+}
+
+
+
+
+header::after, header::before{
+content: '';
+position: absolute;
+height: 100%;
+width: 100%;
+background-image: conic-gradient(from var(--angle),transparent 170deg, rgb(26, 12, 211), rgb(15, 31, 176),rgb(206, 26, 26),rgb(26, 12, 211));
+top: 50%;
+left: 50%;
+translate: -50%  -50%;
+z-index: -1;
+padding: 3px;
+border-radius: 10px;
+animation: 3s spin linear infinite;
+}
+
+
+header::before{
+filter: blur(1.5rem);
+opacity: 0.8;
+
+}
+
+@keyframes spin{
+    from{
+        --angle: 0deg;
+    }
+    to{
+        --angle: 360deg;
+    }
+}
+
+.player {
+   position: relative;
+  right: 8%;
+  display: flex;
+  align-items: center;
+  gap: 100px;
+
+  width: 1100px;
+  margin: 120px auto;
+  padding: 0 3%;
+
+  background: linear-gradient(90deg, rgb(28, 28, 139), #0a0e36);
+  border-radius: 20px;
+}
+.player img {
+  width: 260px;
+  position: relative;
+  top: 4px;
+  right: 20%;
+}
+
+.player-text {
+  color: rgb(198, 191, 237);
+  font-weight:2px;
+  font-family: Arial, sans-serif;
+}
+
+.player-text h1 {
+  margin-bottom: 10px;
+}
+
+
+
+
+.dembele {
+   position: relative;
+  right: 8%;
+  display: flex;
+  align-items: center;
+  gap: 100px;
+
+  width: 1100px;
+  margin: 100px auto;
+  padding: 0 3%;
+
+  background: linear-gradient(90deg, rgb(36, 36, 155), #070a35);
+  border-radius: 20px;
+}
+.dembele img {
+  width: 260px;
+  position: relative;
+  right: 19%;
+  top: 40px;
+}
+
+.dembele-text {
+  color: rgb(203, 190, 241);
+  font-weight:2px;
+  font-family: Arial, sans-serif;
+
+}
+
+.dembele-text h1 {
+  margin-bottom: 10px;
+}
+
+
+
+
+.raphinia {
+   position: relative;
+  right: 8%;
+  display: flex;
+  align-items: center;
+  gap: 100px;
+
+  width: 1100px;
+  margin: 90px auto;
+  padding: 0 3%;
+
+  background: linear-gradient(100deg, rgb(130, 14, 14),rgb(26, 26, 91),#0a0e36);
+  border-radius: 20px;
+}
+.raphinia img {
+  width: 260px;
+  position: relative;
+  right: 19%;
+  top: 40px;
+}
+
+.raphinia-text {
+ 
+  font-weight:21px;
+  font-family: Arial, sans-serif;
+
+}
+
+.raphinia-text h1 {
+  margin-bottom: 10px;
+}
+
+
+
+.settingsao {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+  z-index: 1000;
+
+}
+
+.settings:hover {
+  opacity: 0.7;
+}
+
+
+
