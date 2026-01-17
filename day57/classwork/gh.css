@@ -1,0 +1,19 @@
+.cars ul li {
+    color: red;
+    font-size: 35px;
+    border: 2px solid green;
+    background-color: blue;
+    margin: 5px;
+    list-style-type: none;
+}
+
+
+
+.fruits ul li {
+    color: brown;
+    font-size: 50px;
+    border: 2px solid purple;
+    background-color: yellow;
+    margin: 5px;
+    list-style-type: none;
+}

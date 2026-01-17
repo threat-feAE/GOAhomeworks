@@ -1,0 +1,20 @@
+ 
+ 
+ 
+ 
+p {
+     font-size: 50px;
+    border: 2px solid green;
+    color: yellow;
+    text-align: center;
+}
+
+
+ button {
+height: 60px;
+ width: 100px;
+background-color: red;
+color: yellow;
+border: none;
+margin: 5px;
+}
