@@ -1,0 +1,35 @@
+table {
+    margin: auto;
+    border-collapse: collapse;
+}
+
+
+.table-one {
+    font-size: 15px;
+    color: blue;
+    background-color: green;
+    text-align: center;
+}
+
+.table-one td,
+.table-one th {
+    padding: 10px;
+}
+
+
+.table-two {
+    font-size: 18px;
+    color: green;
+    background-color: red;
+    text-align: center;
+}
+
+.table-two table {
+    border: 3px solid black;
+}
+
+.table-two td,
+.table-two th {
+    padding: 10px;
+    border: 1px solid black;
+}
