@@ -35,3 +35,17 @@ print("blablablaa:", count)
 
 
 
+
+word = input("word:  ")
+
+is_palindrome = True
+lenght = len(word)
+for i in range(lenght // 2):
+    if word[i] != word[lenght - 1 -i]:
+        is_palindrome = True
+        break
+
+print(is_palindrome)
+
+
+
