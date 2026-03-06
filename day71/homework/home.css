@@ -1,0 +1,86 @@
+#p1{
+    font-weight: normal;
+}
+
+#p2{
+    font-weight: bold;
+}
+
+#p3{
+    font-weight: lighter;
+}
+
+#p4{
+    font-weight: bolder;
+}
+
+#p5{
+    font-weight: inherit;
+}
+
+
+
+
+
+
+#h1{
+    font-weight:100;
+}
+
+#h2{
+    font-weight:200;
+}
+
+#h3{
+    font-weight:300;
+}
+
+#h4{
+    font-weight:400;
+}
+
+#h5{
+    font-weight:500;
+}
+
+#h6{
+    font-weight:600;
+}
+
+#h7{
+    font-weight:700;
+}
+
+#h8{
+    font-weight:800;
+}
+
+#h9{
+    font-weight:900;
+}
+
+
+
+
+
+#htmltags{
+    font-weight: lighter;
+}
+
+#csstags{
+    font-weight: bolder;
+}
+
+
+
+#group{
+    font-weight:500;
+}
+
+#group ul{
+    font-weight:bolder;
+}
+
+
+
+
