@@ -97,3 +97,40 @@ table, th, td {
 }  
 
 
+
+#div1{
+color:blue;
+background-color:lightyellow;
+font-size:20px;
+font-weight:700;
+border:3px solid black;
+text-shadow:2px 2px 4px gray;
+text-decoration:underline;
+text-transform:uppercase;
+}
+
+
+#div2{
+color:green;
+background-color:lightblue;
+font-size:22px;
+font-weight:900;
+border:4px dashed purple;
+text-shadow:1px 1px 3px black;
+text-decoration:line-through;
+text-transform:capitalize;
+}
+
+
+.btn{
+color:white;
+background-color:red;
+font-size:18px;
+font-weight:bold;
+border:3px solid black;
+text-shadow:1px 1px 2px black;
+text-decoration:none;
+text-transform:uppercase;
+padding:10px;
+margin:5px;
+}
