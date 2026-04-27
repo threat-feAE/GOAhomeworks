@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>homework</title>
+    <link rel="stylesheet" href="c.css">
+
+        <!-- flex-grow არის CSS-ის კუთვნილება, რომელიც განსაზღვრავს 
+        რამდენად გაიზრდება flex ელემენტი თავისუფალი სივრცის არსებობისას.
+
+        მარტივად:
+        თუ კონტეინერში დარჩა თავისუფალი ადგილი,
+        flex-grow წყვეტს რომელი ელემენტი რამდენ ნაწილს დაიკავებს.
+
+        მნიშვნელობები:
+        - 0 → ელემენტი არ გაიზრდება (default)
+        - 1 → ელემენტი გაიზრდება და მიიღებს თავისუფალ სივრცეს
+        - 2,3,4... → რაც მეტი რიცხვია, მით მეტი სივრცე შეხვდება სხვა ელემენტებთან შედარებით -->
+
+
+
+        
+        <!-- flex-shrink განსაზღვრავს რამდენად შემცირდება (შეიკუმშება) ელემენტი,
+        როცა კონტეინერში ადგილი აღარ არის საკმარისი.
+
+        მარტივად:
+        თუ ელემენტები არ ეტევა კონტეინერში,
+        flex-shrink წყვეტს რომელი რამდენად "დაპატარავდება".
+
+        მნიშვნელობები:
+        - 0 → საერთოდ არ შემცირდება
+        - 1 → ჩვეულებრივ შემცირდება (default)
+        - 2,3,4... → რაც უფრო დიდია რიცხვი,
+        მით უფრო მეტად შემცირდება სხვა ელემენტებთან შედარებით
+
+        განსხვავება:
+        flex-grow → ზრდის ელემენტს (თავისუფალ სივრცეზე)
+        flex-shrink → ამცირებს ელემენტს (როცა ადგილი არ არის)
+        -->
+    </head>
+    <body>
+        <div class="container">
+            <div class="item">1</div>
+            <div class="item grow">2</div>
+            <div class="item">3</div>
+        </div>
+
+
+        <div class="nav">
+            <img src="images.jpg" class="logo">
+
+            <ul class="menu">
+                <li>Home</li>
+                <li>About</li>
+                <li>Contact</li>
+            </ul>
+
+            <button>Login</button>
+        </div>
+
+
+        <div class="box">
+            <div class="item">1</div>
+            <div class="item">2</div>
+            <div class="item special">3</div>
+        </div>
+        
+
+
+
+        <div class="container">
+            <div class="item one">1</div>
+            <div class="item two">2</div>
+            <div class="item three">3</div>
+        </div>
+    </body>
+</html>

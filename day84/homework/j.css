@@ -1,0 +1,37 @@
+.container {
+  display: flex;
+  width: 400px;
+  border: 2px solid black;
+}
+
+.item {
+  background: lightblue;
+  margin: 5px;
+}
+
+
+
+.box {
+  display: flex;
+  width: 400px;
+}
+
+.item {
+  flex-basis: 200px;
+  background: lightgreen;
+  margin: 5px;
+}
+
+
+
+
+.wrap {
+  display: flex;
+  width: 400px;
+}
+
+.item {
+  background: peachpuff;
+  margin: 5px;
+  padding: 20px;
+}

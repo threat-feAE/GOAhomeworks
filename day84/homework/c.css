@@ -1,0 +1,82 @@
+.container {
+  display: flex;
+}
+
+.item {
+  width: 100px;
+  background: lightgray;
+  margin: 5px;
+}
+
+.grow {
+  flex-grow: 1;
+}
+
+
+
+
+
+
+.nav {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  background: #222;
+  color: white;
+}
+
+.logo {
+  width: 50px;
+}
+
+.menu {
+  display: flex;
+  list-style: none;
+  gap: 21px; 
+  justify-content: center;
+}
+
+button {
+  padding: 8px 15px;
+  background: orange;
+  border: none;
+  border-radius: 5px;
+}
+
+
+
+
+
+
+
+.box {
+  display: flex;
+}
+
+.item {
+  flex-grow: 1;
+  padding: 40px;
+  background: lightblue;
+  margin: 5px;
+  transition: 0.3s;
+}
+
+.item:hover {
+  background: orange;
+}
+
+
+
+
+
+
+.container {
+  display: flex;
+}
+
+.item {
+  background: lightgreen;
+  margin: 5px;
+  padding: 20px;
+}
+
